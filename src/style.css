@@ -1,12 +1,16 @@
 body {
   background: rgba(239, 216, 216, 0.612);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/114/003/original/191-1910568_black-heart.jpg?1707189674");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
 }
 .container {
   margin: 120px auto;
   max-width: 600px;
 }
 .form-container {
-  background-color: rgba(85, 85, 85, 0.056);
+  background-color: rgb(170 170 170 / 26%);
   margin-bottom: 35px;
   padding: 15px 20px;
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.5);
@@ -15,7 +19,7 @@ body {
 .hint {
   line-height: 1.5;
   margin-top: 5px;
-  opacity: 0.6;
+  opacity: 0.9;
   font-size: 12px;
 }
 .hidden {
@@ -35,7 +39,7 @@ header {
 }
 h1 {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(244 244 244);
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
@@ -57,7 +61,8 @@ form {
 
 .poem {
   font-size: 15px;
-  background-color: rgba(245, 245, 245, 0.645);
+  background-color: rgb(5 1 1 / 24%);
+  color: #dfdfdf;
   box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.4);
   padding: 20px;
   line-height: 23px;
@@ -70,10 +75,12 @@ form {
 
 footer {
   text-align: center;
+  color: white;
   margin-top: 30px;
   font-size: 13px;
 }
 
 a {
-  color: rgb(85, 26, 139);
+  color: rgb(195, 167, 167);
+  text-decoration: solid;
 }
