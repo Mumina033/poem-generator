@@ -14,19 +14,23 @@
         <h1>AI Love Poem Generator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="enter the topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="instruction"
-            id="user-instructions"
-          />
-          <input type="submit" class="heart-btn" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="enter a topic"
+              autofocus
+              required
+              autocomplete="off"
+              class="instruction"
+              id="user-instructions"
+            />
+            <input type="submit" class="heart-btn" />
+          </form>
+          <div class="hint">i.e Eternal, Friend or Winter</div>
+        </div>
+
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
